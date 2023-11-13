@@ -38,7 +38,7 @@ if [[ $option == 1 || $option == 01 ]]; then
 cd /data/data/com.termux/files/home/xinsta_brute
 bash 10M-pass.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-cd /data/data/com.termux/files/home/xinsta_brute/custom-pass
+cd /data/data/com.termux/files/home/xinsta_brute
 bash custom-pass.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 exit 1
