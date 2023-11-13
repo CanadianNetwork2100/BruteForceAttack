@@ -34,10 +34,10 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' optio
 
 
 if [[ $option == 1 || $option == 01 ]]; then
-cd /data/iSH/root/xinsta_brute/10M-pass
+cd /data/iSH/root/xinsta_brute/10M-pass/
 bash 10M-pass.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-cd /data/iSH/root/xinsta_brute/10M-pass
+cd /data/iSH/root/xinsta_brute/10M-pass/
 bash custom-pass.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 exit 1
