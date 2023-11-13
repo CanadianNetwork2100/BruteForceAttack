@@ -11,13 +11,7 @@ cyan='\033[1;36m'
 pink='\033[1;35m'
 #coding section starts :)
 
-clear
-filee=/data/data/com.termux/files/usr/etc/tor/torrc
-if [[ ! -f "filee" ]]
-then
-cp -r torrc /data/data/com.termux/files/usr/etc/tor
-fi
-echo 
+clear 
 echo '
    
 __  ___           _            _                _       
